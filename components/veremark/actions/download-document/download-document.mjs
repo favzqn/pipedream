@@ -21,7 +21,7 @@ export default {
     documentGuid: {
       type: "string",
       label: "Document GUID",
-      description: "The unique GUID of the document to download. Found in the response from **Get Background Check Request** within the checks data. Example: `123e4567-e89b-12d3-a456-426614174000`.",
+      description: "The unique GUID of the document to download. Found in the response from **List Request**. Example: `123e4567-e89b-12d3-a456-426614174000`.",
     },
     syncDir: {
       propDefinition: [

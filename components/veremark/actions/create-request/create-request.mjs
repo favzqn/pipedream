@@ -107,7 +107,7 @@ export default {
     assignedUserGuid: {
       type: "string",
       label: "Assigned User GUID",
-      description: "UUID of the Veremark user to assign this request to.",
+      description: "UUID of the Veremark user to assign this request to. Use **List Users** to find available user GUIDs.",
       optional: true,
     },
     // --- Candidate Response: primitives (optional) ---

@@ -7,7 +7,7 @@ export default {
     requestGuid: {
       type: "string",
       label: "Request GUID",
-      description: "The unique GUID of the background check request. Returned when a request is created via **Create Background Check Request**.",
+      description: "The unique GUID of the background check request. Returned when a request is created via **Create Background Check Request**. Use **List Requests** to find the GUID.",
     },
     criteriaGuid: {
       type: "string",
